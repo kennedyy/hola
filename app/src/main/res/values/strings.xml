@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Intendencia</string>
+
+    //Login
+    <string name="Login_titulo">Login</string>
+    <string name="etUsuario">Usuario</string>
+    <string name="etContraseña">Contraseña</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnCancelar">Cancelar</string>
+
+
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Systema de Prefectura</string>
+    <string name="nav_header_subtitle">Fime.uanl@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="nav_titulo_admi">Administracion</string>
+    <string name="nav_titulo_pref">Prefectos</string>
+    <string name="nav_mensaje">Enviar Mensajes</string>
+    <string name="nav_rondin">Rondin</string>
+    <string name="nav_reporte">Reportes</string>
+    <string name="nav_horario">Horario</string>
+    <string name="nav_registro">Registro</string>
+
+    <string name="action_Configuraciones">Configuraciones</string>
+    <string name="action_Salir">Salir</string>
+
+
+    <string name="action_inicio_titulo"><b>Systema de Prefectura</b></string>
+    <string name="title_activity_rondin">Rondin</string>
+</resources>
