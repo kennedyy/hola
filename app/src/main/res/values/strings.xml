@@ -30,4 +30,29 @@
 
     <string name="action_inicio_titulo"><b>Systema de Prefectura</b></string>
     <string name="title_activity_rondin">Rondin</string>
+
+
+    //registro
+    <string name="etId">Id</string>
+    <string name="tvTurno">Turno</string>
+    <string name="tvAccesoNivel">Nivel de Acceso</string>
+    <string name="tvTitulo">Registro de Usuarios</string>
+    <string name="etNombre">Nombre</string>
+    <string name="etApellidos">Apellidos</string>
+
+    <string name="etContra">Contraseña</string>
+    <string name="tvArea">Area: </string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnCancelarU">Cancelar</string>
+
+
+
+    //rondin
+    <string name="tvIncidencias">Registrar Incidencias</string>
+    <string name="tvRondin">Rondin</string>
+    <string name="cbpiso">Piso</string>
+    <string name="cbpizarron">Pizarron</string>
+    <string name="cbescritorio">Escritorio</string>
+    <string name="cbbasura">Basura</string>
+    <string name="cbbanco">Banco</string>
 </resources>

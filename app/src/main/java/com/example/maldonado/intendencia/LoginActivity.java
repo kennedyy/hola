@@ -20,6 +20,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+        conexionSQLiteHelper conn = new conexionSQLiteHelper(this, "bd_intendencia", null, 1);
+
         //titulo del actividad login
         this.setTitle(R.string.Login_titulo);
 
@@ -36,6 +39,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(Usuario.getText().toString().equals("") || Contraseña.getText().toString().equals("")){
                     Toast.makeText(getApplicationContext(),"Complete los campos", Toast.LENGTH_SHORT).show();
                 }else{
+
                     Intent intencion = new Intent(LoginActivity.this, Inicio.class);
                     startActivity(intencion);
                     finish();

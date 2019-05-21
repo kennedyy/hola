@@ -20,14 +20,11 @@
             android:name=".Inicio"
             android:label="@string/title_activity_inicio"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Rondin"
-            android:label="@string/title_activity_rondin"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Reporte" />
         <activity android:name=".Horario" />
         <activity android:name=".Registro" />
-        <activity android:name=".Mensaje"></activity>
+        <activity android:name=".Mensaje" />
+        <activity android:name=".Rondin"></activity>
     </application>
 
 </manifest>
