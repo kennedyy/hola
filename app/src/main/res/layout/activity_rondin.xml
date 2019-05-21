@@ -13,8 +13,6 @@
         android:layout_height="wrap_content">
 
 
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,12 +25,21 @@
                 android:text="@string/tvRondin"
                 android:textAlignment="center"
                 android:textSize="24sp" />
-
+            <EditText
+                android:id="@+id/etIdRondin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:hint="@string/etIdRondin"
+                android:textSize="20sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp">
+
+
 
                 <TextView
                     android:id="@+id/textView3"
@@ -51,7 +58,23 @@
                     />
             </LinearLayout>
 
+            <EditText
+                android:id="@+id/etSubArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:hint="@string/tvSubArea"
+                android:textSize="20sp"/>
 
+            <TextView
+                android:id="@+id/tvPrefectoRondin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/tvPrefectoRondin"
+                android:textSize="20sp"/>
 
 
             <TextView
@@ -146,24 +169,23 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="20dp"
                 >
 
                 <Button
-                    android:id="@+id/btnEntrar"
+                    android:id="@+id/btnRegistrarRondin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/btnEntrar"
-                    />
+                    android:onClick="btnRegistrarRondin"
+                    android:text="@string/btnRegistrarRondin" />
 
                 <Button
-                    android:id="@+id/btnCancelar"
+                    android:id="@+id/btnCancelarRondin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/btnCancelar" />
+                    android:text="@string/btnCancelarRondin" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -85,9 +85,11 @@ public class Inicio extends AppCompatActivity
             startActivity(new Intent(Inicio.this, Rondin.class));
         } else if (id == R.id.nav_mensaje) {
             startActivity(new Intent(Inicio.this, Mensaje.class));
-        } else if (id == R.id.nav_reporte) {
+        } else if (id == R.id.nav_reporteR) {
             startActivity(new Intent(Inicio.this, Reporte.class));
-        } else if (id == R.id. nav_horario) {
+        }else if (id == R.id.nav_reporteU) {
+            startActivity(new Intent(Inicio.this, ReporteUsuario.class));
+        }  else if (id == R.id. nav_horario) {
             startActivity(new Intent(Inicio.this, Horario.class));
         } else if (id == R.id.nav_registro) {
             startActivity(new Intent(Inicio.this, Registro.class));

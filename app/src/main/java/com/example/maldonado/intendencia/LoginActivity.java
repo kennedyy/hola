@@ -38,11 +38,14 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(Usuario.getText().toString().equals("") || Contraseña.getText().toString().equals("")){
                     Toast.makeText(getApplicationContext(),"Complete los campos", Toast.LENGTH_SHORT).show();
-                }else{
+                }else if(Usuario.getText().toString().equals("user") || Contraseña.getText().toString().equals("user")){
 
+                    Toast.makeText(getApplicationContext(),"Bienvenido!!!", Toast.LENGTH_SHORT).show();
                     Intent intencion = new Intent(LoginActivity.this, Inicio.class);
                     startActivity(intencion);
                     finish();
+                }else{
+
                 }
             }
         });

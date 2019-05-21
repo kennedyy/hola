@@ -20,7 +20,8 @@
     <string name="nav_titulo_pref">Prefectos</string>
     <string name="nav_mensaje">Enviar Mensajes</string>
     <string name="nav_rondin">Rondin</string>
-    <string name="nav_reporte">Reportes</string>
+    <string name="nav_reporteR">Reportes Rondin</string>
+    <string name="nav_reporteU">Reportes Usuarios</string>
     <string name="nav_horario">Horario</string>
     <string name="nav_registro">Registro</string>
 
@@ -46,13 +47,38 @@
     <string name="btnCancelarU">Cancelar</string>
 
 
-
     //rondin
     <string name="tvIncidencias">Registrar Incidencias</string>
+    <string name="tvSubArea">SubArea</string>
+    <string name="tvPrefectoRondin">Jose Perales Castelar</string>
+    <string name="btnRegistrarRondin">Registrar</string>
+    <string name="btnCancelarRondin">Cancelar</string>
+    <string name="etIdRondin">Id</string>
+
     <string name="tvRondin">Rondin</string>
     <string name="cbpiso">Piso</string>
     <string name="cbpizarron">Pizarron</string>
     <string name="cbescritorio">Escritorio</string>
     <string name="cbbasura">Basura</string>
     <string name="cbbanco">Banco</string>
+
+
+    //reporte USUARIOS
+    <string name="tvtituloReporteUsuario">Buscar usuario por ID</string>
+    <string name="etIdRU">Id</string>
+    <string name="etNombreRU">Nombre</string>
+    <string name="etApellidoRU">Apellido</string>
+    <string name="etAreaRU">Area</string>
+    <string name="etTurnoRU">Turno</string>
+    <string name="btnBuscarRU">Buscar</string>
+    <string name="btnActualizarRU">Actualizar</string>
+    <string name="btnEliminarRU">Eliminar</string>
+
+
+    //mensajes
+    <string name="tvtituloMensajes">Area de Mensajes</string>
+    <string name="etMensaje">Escriba aqui ...</string>
+    <string name="etAsunto">Asunto</string>
+    <string name="btnEnviarMensaje">Enviar Mensajes</string>
+
 </resources>

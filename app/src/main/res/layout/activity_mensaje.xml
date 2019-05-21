@@ -8,4 +8,42 @@
     android:orientation="vertical"
     tools:context=".Mensaje">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvtituloMensajes"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/etAsunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/etAsunto"/>
+
+    <EditText
+        android:id="@+id/etMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/etMensaje"/>
+
+    <Button
+        android:id="@+id/btnEnviarMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/btnEnviarMensaje" />
+
 </LinearLayout>

@@ -20,9 +20,13 @@
         <menu>
 
             <item
-                android:id="@+id/nav_reporte"
+                android:id="@+id/nav_reporteR"
                 android:icon="@drawable/ic_menu_gallery"
-                android:title="@string/nav_reporte" />
+                android:title="@string/nav_reporteR" />
+            <item
+                android:id="@+id/nav_reporteU"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/nav_reporteU" />
             <item
                 android:id="@+id/nav_horario"
                 android:icon="@drawable/ic_menu_slideshow"

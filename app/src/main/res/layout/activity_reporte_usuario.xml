@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReporteUsuario">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvtituloReporteUsuario"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/etIdRU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/etIdRU"/>
+
+        <Button
+            android:id="@+id/btnBuscarRU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btnBuscar"
+            android:text="@string/btnBuscarRU" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etNombreRU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="@string/etNombreRU"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/etApellidoRU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="@string/etApellidoRU"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etAreaRU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="@string/etAreaRU"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/etTurnoRU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="@string/etTurnoRU"
+        android:inputType="text" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnActualizarRU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btnActualizar"
+            android:text="@string/btnActualizarRU" />
+
+        <Button
+            android:id="@+id/btnEliminarRU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btnEliminar"
+            android:text="@string/btnEliminarRU" />
+
+    </LinearLayout>
+
+</LinearLayout>

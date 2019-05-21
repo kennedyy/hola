@@ -24,7 +24,8 @@
         <activity android:name=".Horario" />
         <activity android:name=".Registro" />
         <activity android:name=".Mensaje" />
-        <activity android:name=".Rondin"></activity>
+        <activity android:name=".Rondin" />
+        <activity android:name=".ReporteUsuario"></activity>
     </application>
 
 </manifest>

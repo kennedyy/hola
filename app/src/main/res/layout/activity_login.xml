@@ -16,6 +16,7 @@
         android:layout_gravity="center"/>
 
 
+
         <EditText
             android:id="@+id/etUsuario"
             android:layout_width="match_parent"
@@ -49,6 +50,7 @@
             android:layout_weight="1"
             android:text="@string/btnEntrar"
             />
+
 
         <Button
             android:id="@+id/btnCancelar"
